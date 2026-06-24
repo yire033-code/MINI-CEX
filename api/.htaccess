@@ -1,0 +1,1 @@
+# Desactivado para permitir que las rutas /api/* sean manejadas por el .htaccess de la raíz del sitio (CodeIgniter)

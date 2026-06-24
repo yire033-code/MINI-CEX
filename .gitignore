@@ -1,0 +1,53 @@
+# ===================================================================
+# MINI-CEX (CodeIgniter 4) — .gitignore
+# ===================================================================
+
+# --------------- Sensitive credentials (DO NOT COMMIT) ---------------
+config.php
+smtp_config.php
+
+# -------------------------- Environment -----------------------------
+.env
+
+# ----------------------- Composer dependencies ----------------------
+vendor/
+
+# ---------------------- CI4 writable directory ----------------------
+# Cache, logs, sessions, uploads — all dynamically generated
+writable/
+
+# --------------------------- Log files ------------------------------
+*.log
+
+# ------------------------- Build artifacts --------------------------
+*.apk
+*.ap_
+*.dex
+*.class
+
+# ------------------------ Generated reports -------------------------
+*.pdf
+
+# ------------------------- OS generated files ----------------------
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ---------------------------- IDE / Editor --------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-*
+*.sublime-workspace
+
+# -------------------------- Scratch / temp -------------------------
+scratch/
+temp/
+tmp/
