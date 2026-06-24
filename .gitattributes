@@ -1,0 +1,6 @@
+# Ensure Linguist correctly identifies all PHP files
+# (Prevents false positive "Hack" detection from bitwise operators << and >>)
+*.php linguist-language=PHP
+
+# Auto-detect line endings
+* text=auto
