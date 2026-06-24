@@ -89,13 +89,15 @@ minicex/
 
 ## 🌐 API (Android App)
 
-La API REST está documentada en `/api-docs` y soporta:
+La API REST está documentada en [`API.md`](API.md) (visible en GitHub) y también en `/api-docs` (en el servidor). Soporta:
 
 - `POST /api/auth/login` — Autenticación
 - `GET /api/students` — Listar alumnos
 - `POST /api/sync/students` — Sincronizar alumnos
 - `GET/POST /api/sync/evaluations` — Sincronizar evaluaciones
 - `POST /api/sync/process_queue` — Sincronización offline bidireccional
+
+➡️ **[Ver documentación completa de la API →](API.md)**
 
 ## 📄 Licencia
 
